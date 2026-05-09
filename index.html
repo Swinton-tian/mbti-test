@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI 人格测试</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>MBTI 人格测试</h1>
+        <p>发现你的内在类型</p>
+    </div>
+    <div class="container">
+        <p>请回答以下问题，选择最符合你的选项。</p>
+        <form id="quiz-form">
+            <!-- 问题将在这里动态生成 -->
+        </form>
+        <button id="submit-btn">提交并查看结果</button>
+        <div id="result" style="display: none;">
+            <h2>你的 MBTI 类型是：</h2>
+            <p id="type"></p>
+            <p id="description"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
